@@ -1,0 +1,29 @@
+.section {
+  padding: 40px 100px 0;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.section-header--center {
+  justify-content: center;
+}
+
+.section-link {
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}

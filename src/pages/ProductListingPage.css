@@ -1,0 +1,57 @@
+.listing-page {
+  display: flex;
+  gap: 16px;
+  padding: 40px 100px 0;
+  align-items: flex-start;
+}
+
+.listing-filters {
+  width: 308px;
+  flex-shrink: 0;
+}
+
+.listing-sort {
+  width: 308px;
+  height: 60px;
+  padding: 0 16px;
+  margin-bottom: 24px;
+  border: 1px solid var(--light-gray-2);
+  border-radius: 4px;
+  background-color: var(--white);
+  font-size: 16px;
+  color: var(--dark-gray-2);
+}
+
+.listing-filter-box {
+  width: 308px;
+  padding: 24px;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray-2);
+  border-radius: 4px;
+}
+
+.listing-filter-box h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+}
+
+.listing-filter-box hr {
+  margin: 16px 0 24px;
+  border: none;
+  border-top: 1px solid var(--light-gray-2);
+}
+
+.listing-main {
+  flex: 1;
+}
+
+/* a Section tem padding próprio; aqui ele não é necessário */
+.listing-main .section {
+  padding: 0;
+}
+
+.listing-main .product-listing {
+  justify-content: start;
+  column-gap: 16px;
+}

@@ -1,0 +1,89 @@
+.buy-box {
+  flex: 1;
+}
+
+.buy-box h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+.buy-box-reference {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--dark-gray-3);
+}
+
+.buy-box-rating {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.buy-box-stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--warning);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.buy-box-rating-text {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.buy-box-prices {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.buy-box-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+.buy-box-price-old {
+  font-size: 16px;
+  color: var(--light-gray-2);
+  text-decoration: line-through;
+}
+
+.buy-box-description-title {
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light-gray);
+}
+
+.buy-box-description {
+  margin: 8px 0 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--dark-gray-2);
+}
+
+.buy-box-button {
+  margin-top: 32px;
+  width: 220px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--warning);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buy-box-button:hover {
+  opacity: 0.9;
+}
