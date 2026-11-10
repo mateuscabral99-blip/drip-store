@@ -1,4 +1,5 @@
 # Digital Store
+**Site publicado:** https://drip-store-rose.vercel.app/
 
 Projeto final do módulo Front-end do curso de Desenvolvimento FullStack: loja virtual desenvolvida em **React**, baseada na documentação "Digital Store" e no design do Figma "DRIP STORE - DIGITAL COLLEGE".
 
